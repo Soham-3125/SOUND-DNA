@@ -1,0 +1,26 @@
+CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/pluginterfaces/base/ustring.cpp.obj: \
+ E:\Nanu\sound_dna_simple\iPlug2\Dependencies\IPlug\VST3_SDK\pluginterfaces\base\ustring.cpp \
+ E:\Nanu\sound_dna_simple\iPlug2\Dependencies\IPlug\VST3_SDK\pluginterfaces\base\ustring.h \
+ E:\Nanu\sound_dna_simple\iPlug2\Dependencies\IPlug\VST3_SDK\pluginterfaces\base\ftypes.h \
+ E:\Nanu\sound_dna_simple\iPlug2\Dependencies\IPlug\VST3_SDK\pluginterfaces\base\fplatform.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/cstdint \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/pstl/pstl_config.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/stdint.h \
+ E:/Soham/Documents/w64devkit/include/stdint.h \
+ E:/Soham/Documents/w64devkit/include/crtdefs.h \
+ E:/Soham/Documents/w64devkit/include/corecrt.h \
+ E:/Soham/Documents/w64devkit/include/_mingw.h \
+ E:/Soham/Documents/w64devkit/include/_mingw_mac.h \
+ E:/Soham/Documents/w64devkit/include/_mingw_secapi.h \
+ E:/Soham/Documents/w64devkit/include/vadefs.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/stddef.h \
+ E:/Soham/Documents/w64devkit/include/stddef.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/cstdio \
+ E:/Soham/Documents/w64devkit/include/stdio.h \
+ E:/Soham/Documents/w64devkit/include/corecrt_stdio_config.h \
+ E:/Soham/Documents/w64devkit/include/_mingw_off_t.h \
+ E:/Soham/Documents/w64devkit/include/swprintf.inl \
+ E:/Soham/Documents/w64devkit/include/sec_api/stdio_s.h

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\SoundDNA-vst3.dir/objects.a
+E:\Soham\Documents\w64devkit\bin\ar.exe qc CMakeFiles\SoundDNA-vst3.dir/objects.a @CMakeFiles\SoundDNA-vst3.dir\objects1.rsp
+E:\Soham\Documents\w64devkit\bin\c++.exe -shared -o out\SoundDNA.vst3\Contents\x86_64-win\libSoundDNA.vst3 -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\SoundDNA-vst3.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\SoundDNA-vst3.dir\linkLibs.rsp

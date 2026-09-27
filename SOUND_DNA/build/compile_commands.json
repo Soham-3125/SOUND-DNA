@@ -1,0 +1,380 @@
+[
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DNOMINMAX -D_USE_MATH_DEFINES @CMakeFiles\\iPlug2_Extras_FlexBox_obj.dir\\includes_CXX.rsp -std=c++17 -fpermissive -o CMakeFiles\\iPlug2_Extras_FlexBox_obj.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Extras\\IGraphicsFlexBox.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Extras\\IGraphicsFlexBox.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/Extras/IGraphicsFlexBox.cpp",
+  "output": "CMakeFiles/iPlug2_Extras_FlexBox_obj.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/Extras/IGraphicsFlexBox.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\SoundDNA.cpp.obj -c E:\\Nanu\\sound_dna_simple\\sound_dna_simple\\SoundDNA.cpp",
+  "file": "E:/Nanu/sound_dna_simple/sound_dna_simple/SoundDNA.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/SoundDNA.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\APP\\IPlugAPP.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\APP\\IPlugAPP.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/APP/IPlugAPP.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/APP/IPlugAPP.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\APP\\IPlugAPP_dialog.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\APP\\IPlugAPP_dialog.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/APP/IPlugAPP_dialog.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/APP/IPlugAPP_dialog.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\APP\\IPlugAPP_host.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\APP\\IPlugAPP_host.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/APP/IPlugAPP_host.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/APP/IPlugAPP_host.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\APP\\IPlugAPP_main.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\APP\\IPlugAPP_main.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/APP/IPlugAPP_main.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/APP/IPlugAPP_main.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\RTAudio\\RtAudio.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\RTAudio\\RtAudio.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/RTAudio/RtAudio.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/RTAudio/RtAudio.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\RTMidi\\RtMidi.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\RTMidi\\RtMidi.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/RTMidi/RtMidi.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/RTMidi/RtMidi.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\RTAudio\\include\\asio.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\RTAudio\\include\\asio.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/RTAudio/include/asio.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/RTAudio/include/asio.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\RTAudio\\include\\asiodrivers.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\RTAudio\\include\\asiodrivers.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/RTAudio/include/asiodrivers.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/RTAudio/include/asiodrivers.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\RTAudio\\include\\asiolist.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\RTAudio\\include\\asiolist.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/RTAudio/include/asiolist.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/RTAudio/include/asiolist.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\RTAudio\\include\\iasiothiscallresolver.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\RTAudio\\include\\iasiothiscallresolver.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/RTAudio/include/iasiothiscallresolver.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/RTAudio/include/iasiothiscallresolver.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugAPIBase.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugAPIBase.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugAPIBase.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugAPIBase.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugParameter.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugParameter.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugParameter.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugParameter.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugPaths.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugPaths.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugPaths.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugPaths.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugPluginBase.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugPluginBase.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugPluginBase.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugPluginBase.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugProcessor.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugProcessor.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugProcessor.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugProcessor.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugTimer.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugTimer.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugTimer.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugTimer.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\cc.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_C.rsp -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\WDL\\win32_utf8.c.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\WDL\\win32_utf8.c",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/WDL/win32_utf8.c",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/WDL/win32_utf8.c.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\IControl.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\IControl.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/IControl.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/IControl.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\IGraphics.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\IGraphics.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/IGraphics.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/IGraphics.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\IGraphicsEditorDelegate.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\IGraphicsEditorDelegate.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/IGraphicsEditorDelegate.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/IGraphicsEditorDelegate.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Controls\\IControls.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Controls\\IControls.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/Controls/IControls.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/Controls/IControls.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Controls\\IPopupMenuControl.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Controls\\IPopupMenuControl.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/Controls/IPopupMenuControl.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/Controls/IPopupMenuControl.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Controls\\ITextEntryControl.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Controls\\ITextEntryControl.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/Controls/ITextEntryControl.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/Controls/ITextEntryControl.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DAPP_API -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -D_USE_MATH_DEFINES -D__WINDOWS_ASIO__ -D__WINDOWS_DS__ -D__WINDOWS_MM__ @CMakeFiles\\SoundDNA-app.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-app.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Platforms\\IGraphicsWin.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Platforms\\IGraphicsWin.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/Platforms/IGraphicsWin.cpp",
+  "output": "CMakeFiles/SoundDNA-app.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/Platforms/IGraphicsWin.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\SoundDNA.cpp.obj -c E:\\Nanu\\sound_dna_simple\\sound_dna_simple\\SoundDNA.cpp",
+  "file": "E:/Nanu/sound_dna_simple/sound_dna_simple/SoundDNA.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/SoundDNA.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\VST3\\IPlugVST3.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\VST3\\IPlugVST3.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/VST3/IPlugVST3.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/VST3/IPlugVST3.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\VST3\\IPlugVST3_ProcessorBase.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\VST3\\IPlugVST3_ProcessorBase.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/VST3/IPlugVST3_ProcessorBase.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/VST3/IPlugVST3_ProcessorBase.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\base\\source\\baseiids.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\base\\source\\baseiids.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/base/source/baseiids.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/base/source/baseiids.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\base\\source\\fdebug.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\base\\source\\fdebug.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/base/source/fdebug.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/base/source/fdebug.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\base\\source\\fobject.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\base\\source\\fobject.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/base/source/fobject.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/base/source/fobject.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\base\\source\\fstring.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\base\\source\\fstring.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/base/source/fstring.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/base/source/fstring.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\base\\source\\updatehandler.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\base\\source\\updatehandler.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/base/source/updatehandler.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/base/source/updatehandler.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\base\\thread\\source\\flock.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\base\\thread\\source\\flock.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/base/thread/source/flock.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/base/thread/source/flock.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\pluginterfaces\\base\\funknown.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\pluginterfaces\\base\\funknown.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/pluginterfaces/base/funknown.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/pluginterfaces/base/funknown.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\pluginterfaces\\base\\ustring.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\pluginterfaces\\base\\ustring.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/pluginterfaces/base/ustring.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/pluginterfaces/base/ustring.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\pluginterfaces\\base\\coreiids.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\pluginterfaces\\base\\coreiids.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/pluginterfaces/base/coreiids.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/pluginterfaces/base/coreiids.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\common\\pluginview.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\common\\pluginview.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/common/pluginview.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/common/pluginview.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\common\\commoniids.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\common\\commoniids.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/common/commoniids.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/common/commoniids.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\vst\\vstbus.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\vst\\vstbus.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/vst/vstbus.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/vst/vstbus.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\vst\\vstcomponent.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\vst\\vstcomponent.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/vst/vstcomponent.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/vst/vstcomponent.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\vst\\vstcomponentbase.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\vst\\vstcomponentbase.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/vst/vstcomponentbase.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/vst/vstcomponentbase.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\vst\\vstinitiids.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\vst\\vstinitiids.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\vst\\vstparameters.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\vst\\vstparameters.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/vst/vstparameters.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/vst/vstparameters.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\vst\\vstsinglecomponenteffect.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\vst\\vstsinglecomponenteffect.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/vst/vstsinglecomponenteffect.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/vst/vstsinglecomponenteffect.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\main\\pluginfactory.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\main\\pluginfactory.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/main/pluginfactory.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/main/pluginfactory.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\main\\dllmain.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\Dependencies\\IPlug\\VST3_SDK\\public.sdk\\source\\main\\dllmain.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/main/dllmain.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/public.sdk/source/main/dllmain.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugAPIBase.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugAPIBase.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugAPIBase.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugAPIBase.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugParameter.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugParameter.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugParameter.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugParameter.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugPaths.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugPaths.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugPaths.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugPaths.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugPluginBase.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugPluginBase.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugPluginBase.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugPluginBase.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugProcessor.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugProcessor.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugProcessor.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugProcessor.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugTimer.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IPlug\\IPlugTimer.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugTimer.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugTimer.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\cc.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_C.rsp -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\WDL\\win32_utf8.c.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\WDL\\win32_utf8.c",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/WDL/win32_utf8.c",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/WDL/win32_utf8.c.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\IControl.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\IControl.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/IControl.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/IControl.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\IGraphics.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\IGraphics.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/IGraphics.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/IGraphics.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\IGraphicsEditorDelegate.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\IGraphicsEditorDelegate.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/IGraphicsEditorDelegate.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/IGraphicsEditorDelegate.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Controls\\IControls.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Controls\\IControls.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/Controls/IControls.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/Controls/IControls.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Controls\\IPopupMenuControl.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Controls\\IPopupMenuControl.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/Controls/IPopupMenuControl.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/Controls/IPopupMenuControl.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Controls\\ITextEntryControl.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Controls\\ITextEntryControl.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/Controls/ITextEntryControl.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/Controls/ITextEntryControl.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -DIGRAPHICS_GL2 -DIGRAPHICS_NANOVG -DIPLUG_DSP=1 -DIPLUG_EDITOR=1 -DNOMINMAX -DRELEASE -DSoundDNA_vst3_EXPORTS -DVST3_API -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-vst3.dir\\includes_CXX.rsp -std=c++17 -fpermissive -Wno-deprecated-declarations -o CMakeFiles\\SoundDNA-vst3.dir\\E_\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Platforms\\IGraphicsWin.cpp.obj -c E:\\Nanu\\sound_dna_simple\\iPlug2\\IGraphics\\Platforms\\IGraphicsWin.cpp",
+  "file": "E:/Nanu/sound_dna_simple/iPlug2/IGraphics/Platforms/IGraphicsWin.cpp",
+  "output": "CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/IGraphics/Platforms/IGraphicsWin.cpp.obj"
+},
+{
+  "directory": "E:/Nanu/sound_dna_simple/sound_dna_simple/build",
+  "command": "E:\\Soham\\Documents\\w64devkit\\bin\\c++.exe -D_USE_MATH_DEFINES @CMakeFiles\\SoundDNA-cli.dir\\includes_CXX.rsp -std=c++17 -fpermissive -o CMakeFiles\\SoundDNA-cli.dir\\src\\main.cpp.obj -c E:\\Nanu\\sound_dna_simple\\sound_dna_simple\\src\\main.cpp",
+  "file": "E:/Nanu/sound_dna_simple/sound_dna_simple/src/main.cpp",
+  "output": "CMakeFiles/SoundDNA-cli.dir/src/main.cpp.obj"
+}
+]

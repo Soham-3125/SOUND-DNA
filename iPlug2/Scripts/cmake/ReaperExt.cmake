@@ -1,0 +1,175 @@
+#  ==============================================================================
+#
+#  This file is part of the iPlug 2 library. Copyright (C) the iPlug 2 developers.
+#
+#  See LICENSE.txt for  more info.
+#
+#  ==============================================================================
+
+# REAPER Extension configuration for iPlug2
+# This module provides ReaperExtBase for building REAPER extension plugins
+
+include(${CMAKE_CURRENT_LIST_DIR}/IPlug.cmake)
+
+if(NOT TARGET iPlug2::ReaperExt)
+  add_library(iPlug2::ReaperExt INTERFACE IMPORTED)
+
+  set(REAPER_EXT_DIR ${IPLUG2_DIR}/IPlug/ReaperExt)
+  set(REAPER_SDK_DIR ${IPLUG_DEPS_DIR}/REAPER_SDK)
+  set(SWELL_DIR ${WDL_DIR}/swell)
+
+  # Note: ReaperExtBase.cpp is #included by ReaperExt_include_in_plug_src.h
+  # so we don't add it as a separate source file
+  set(REAPER_EXT_SRC
+    ${REAPER_EXT_DIR}/ReaperExtBase.h
+    ${REAPER_EXT_DIR}/ReaperExt_include_in_plug_hdr.h
+    ${REAPER_EXT_DIR}/ReaperExt_include_in_plug_src.h
+  )
+
+  target_sources(iPlug2::ReaperExt INTERFACE ${REAPER_EXT_SRC})
+
+  target_include_directories(iPlug2::ReaperExt INTERFACE
+    ${REAPER_EXT_DIR}
+    ${REAPER_SDK_DIR}
+  )
+
+  target_compile_definitions(iPlug2::ReaperExt INTERFACE
+    REAPER_EXT_API
+    IPLUG_EDITOR=1
+    IPLUG_DSP=1
+  )
+
+  if(WIN32)
+    # Windows builds as DLL
+    target_link_libraries(iPlug2::ReaperExt INTERFACE
+      iPlug2::IPlug
+    )
+  elseif(APPLE)
+    # macOS needs SWELL for dialogs and window management. A REAPER extension runs
+    # inside REAPER, which already provides SWELL, so we compile ONLY the module stub
+    # (swell-modstub.mm). Built with SWELL_PROVIDED_BY_APP it defines the SWELL API as
+    # function pointers and binds them to REAPER's SWELL at load time (and exports
+    # SWELL_dllMain). Compiling the full SWELL sources here would instead produce empty
+    # objects (they are all wrapped in #ifndef SWELL_PROVIDED_BY_APP), leaving the SWELL
+    # symbols undefined so the extension fails to load.
+    target_include_directories(iPlug2::ReaperExt INTERFACE ${SWELL_DIR})
+
+    set(SWELL_SRC
+      "${SWELL_DIR}/swell-modstub.mm"
+    )
+
+    target_sources(iPlug2::ReaperExt INTERFACE ${SWELL_SRC})
+
+    # SWELL uses deprecated functions
+    set_source_files_properties(${SWELL_SRC}
+      PROPERTIES
+      COMPILE_FLAGS "-Wno-deprecated-declarations"
+    )
+
+    target_compile_definitions(iPlug2::ReaperExt INTERFACE
+      SWELL_PROVIDED_BY_APP
+    )
+
+    target_link_libraries(iPlug2::ReaperExt INTERFACE
+      "-framework Cocoa"
+      "-framework Carbon"
+      "-undefined dynamic_lookup"
+      iPlug2::IPlug
+    )
+  endif()
+endif()
+
+# Configure a REAPER extension target
+#
+# iplug_configure_reaperext(<target> <project_name>
+#   [WEB_RESOURCES_DIR <dir>]   # deployed to <UserPlugins>/<project_name>/
+# )
+function(iplug_configure_reaperext target project_name)
+  cmake_parse_arguments(REAPEREXT "" "WEB_RESOURCES_DIR" "" ${ARGN})
+
+  target_link_libraries(${target} PUBLIC iPlug2::ReaperExt)
+
+  # REAPER only loads extensions whose filename starts with "reaper_"
+  set(reaper_ext_name "reaper_${project_name}")
+
+  set_target_properties(${target} PROPERTIES
+    CXX_STANDARD ${IPLUG2_CXX_STANDARD}
+    CXX_STANDARD_REQUIRED ON
+    CXX_EXTENSIONS OFF
+  )
+
+  if(APPLE)
+    target_compile_definitions(${target} PRIVATE OBJC_PREFIX=v${project_name}_reaperext)
+
+    iplug_apply_objc_prefix_header(${target})
+  endif()
+
+  if(WIN32)
+    set(REAPER_EXT_OUTPUT_DIR "${CMAKE_BINARY_DIR}/out")
+    set_target_properties(${target} PROPERTIES
+      OUTPUT_NAME "${reaper_ext_name}"
+      LIBRARY_OUTPUT_DIRECTORY "${REAPER_EXT_OUTPUT_DIR}"
+      LIBRARY_OUTPUT_DIRECTORY_DEBUG "${REAPER_EXT_OUTPUT_DIR}"
+      LIBRARY_OUTPUT_DIRECTORY_RELEASE "${REAPER_EXT_OUTPUT_DIR}"
+      SUFFIX ".dll"
+    )
+  elseif(APPLE)
+    set(REAPER_EXT_OUTPUT_DIR "${CMAKE_BINARY_DIR}/out")
+    set_target_properties(${target} PROPERTIES
+      OUTPUT_NAME "${reaper_ext_name}"
+      LIBRARY_OUTPUT_DIRECTORY "${REAPER_EXT_OUTPUT_DIR}"
+      LIBRARY_OUTPUT_DIRECTORY_DEBUG "${REAPER_EXT_OUTPUT_DIR}"
+      LIBRARY_OUTPUT_DIRECTORY_RELEASE "${REAPER_EXT_OUTPUT_DIR}"
+      SUFFIX ".dylib"
+      PREFIX ""
+      # Skip code signing during build
+      XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED "NO"
+    )
+
+    # Restrict exports to the two entry points REAPER/SWELL need: ReaperPluginEntry
+    # (the extension entry) and SWELL_dllMain (marks this as a SWELL-enabled module).
+    # Mirrors GCC_SYMBOLS_PRIVATE_EXTERN=YES in the native project so we don't leak
+    # ~2000 internal C++/REAPER-API symbols from the module.
+    target_link_options(${target} PRIVATE
+      "LINKER:-exported_symbol,_ReaperPluginEntry"
+      "LINKER:-exported_symbol,_SWELL_dllMain"
+    )
+  endif()
+
+  # Auto-deploy to REAPER UserPlugins if enabled
+  if(IPLUG_DEPLOY_PLUGINS)
+    iplug_deploy_target(${target} REAPEREXT ${reaper_ext_name})
+
+    # An extension is a bare dylib/DLL with no bundle to carry resources, so a WebView
+    # UI has nowhere to live in a release build. Deploy it alongside the extension, in
+    # <UserPlugins>/<project_name>/, which is where GetResourcePath() based lookups
+    # expect it. Keep <project_name> in step with SHARED_RESOURCES_SUBPATH in config.h.
+    if(REAPEREXT_WEB_RESOURCES_DIR)
+      iplug_get_default_deploy_path(REAPEREXT)
+
+      if("${IPLUG_DEPLOY_PATH_REAPEREXT}" STREQUAL "")
+        message(STATUS "[iPlug2] No REAPER UserPlugins path on this platform, skipping web resources")
+      else()
+        # POST_BUILD commands run in the binary dir, so resolve a relative directory
+        # against the caller's source dir rather than looking for it under the build tree.
+        get_filename_component(web_resources_dir "${REAPEREXT_WEB_RESOURCES_DIR}"
+          ABSOLUTE BASE_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
+
+        if(NOT IS_DIRECTORY "${web_resources_dir}")
+          message(FATAL_ERROR "iplug_configure_reaperext(${target}): WEB_RESOURCES_DIR "
+            "'${REAPEREXT_WEB_RESOURCES_DIR}' does not exist (looked in ${web_resources_dir})")
+        endif()
+
+        set(web_deploy_path "${IPLUG_DEPLOY_PATH_REAPEREXT}/${project_name}")
+        message(STATUS "[iPlug2] Will deploy ${target} web resources to ${web_deploy_path}")
+
+        add_custom_command(TARGET ${target} POST_BUILD
+          COMMAND ${CMAKE_COMMAND} -E copy_directory
+            "${web_resources_dir}" "${web_deploy_path}"
+          COMMENT "[iPlug2] Deploying ${project_name} web resources"
+          VERBATIM
+        )
+      endif()
+    endif()
+  endif()
+endfunction()

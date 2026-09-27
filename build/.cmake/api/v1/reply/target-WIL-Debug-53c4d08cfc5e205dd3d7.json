@@ -1,0 +1,41 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"E:/Nanu/sound_dna_simple/build/_deps/wil-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"id" : "WIL::@153a063faef1b9aa3039",
+	"name" : "WIL",
+	"paths" : 
+	{
+		"build" : "_deps/wil-build",
+		"source" : "E:/Nanu/sound_dna_simple/build/_deps/wil-src"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

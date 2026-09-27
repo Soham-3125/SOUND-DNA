@@ -1,0 +1,72 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"E:/Nanu/sound_dna_simple/build/_deps/wil-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/WIL",
+			"exportName" : "wil_targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "WIL::@153a063faef1b9aa3039",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"_deps/wil-build/CMakeFiles/Export/ffba2d5117b1ab9ebbb950c1f67494f0/wilConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"E:/Nanu/sound_dna_simple/build/_deps/wil-src/include/wil"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/wil-build",
+		"source" : "E:/Nanu/sound_dna_simple/build/_deps/wil-src"
+	}
+}

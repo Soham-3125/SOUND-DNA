@@ -1,0 +1,10 @@
+^E:\NANU\SOUND_DNA_SIMPLE\SOUND_DNA_SIMPLE\TEST_BUILD\CMAKEFILES\5474F170BA2DC9453C0BD7E040EBCA9C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Nanu/sound_dna_simple/sound_dna_simple -BE:/Nanu/sound_dna_simple/sound_dna_simple/test_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Nanu/sound_dna_simple/sound_dna_simple/test_build/SoundDNASimple.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

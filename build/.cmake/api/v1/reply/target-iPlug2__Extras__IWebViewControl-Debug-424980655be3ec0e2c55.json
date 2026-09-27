@@ -1,0 +1,105 @@
+{
+	"abstract" : true,
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"find_package",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"E:/Nanu/sound_dna_simple/iPlug2/Scripts/cmake/IPlug.cmake",
+			"E:/Nanu/sound_dna_simple/iPlug2/Scripts/cmake/FindiPlug2.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 218,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 274,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"id" : "iPlug2::Extras::IWebViewControl::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "iPlug2::IPlug::@6890427a1f51a3e7e1df"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 6,
+			"fragment" : "E:/Nanu/sound_dna_simple/build/_deps/webview2/build/native/x64/WebView2LoaderStatic.lib"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "iPlug2::IPlug::@6890427a1f51a3e7e1df"
+		}
+	],
+	"interfaceSources" : 
+	[
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/Extras/WebView/IPlugWebView_win.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"local" : true,
+	"name" : "iPlug2::Extras::IWebViewControl",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

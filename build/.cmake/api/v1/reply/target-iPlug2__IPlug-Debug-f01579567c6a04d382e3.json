@@ -1,0 +1,176 @@
+{
+	"abstract" : true,
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"find_package",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"E:/Nanu/sound_dna_simple/iPlug2/Scripts/cmake/IPlug.cmake",
+			"E:/Nanu/sound_dna_simple/iPlug2/Scripts/cmake/FindiPlug2.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"id" : "iPlug2::IPlug::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 6,
+			"fragment" : "Shlwapi.lib"
+		},
+		{
+			"backtrace" : 6,
+			"fragment" : "comctl32.lib"
+		},
+		{
+			"backtrace" : 6,
+			"fragment" : "wininet.lib"
+		}
+	],
+	"interfaceSources" : 
+	[
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugAPIBase.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugAPIBase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugConstants.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugEditorDelegate.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugLogger.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugMidi.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugParameter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugParameter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugPaths.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugPaths.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugPlatform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugPluginBase.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugPluginBase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugProcessor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugProcessor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugQueue.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugStructs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugTimer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugTimer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/IPlug/IPlugUtilities.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"path" : "E:/Nanu/sound_dna_simple/iPlug2/WDL/win32_utf8.c",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"local" : true,
+	"name" : "iPlug2::IPlug",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

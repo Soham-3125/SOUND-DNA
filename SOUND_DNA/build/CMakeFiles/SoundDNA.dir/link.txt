@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\SoundDNA.dir/objects.a
+E:\Soham\Documents\w64devkit\bin\ar.exe qc CMakeFiles\SoundDNA.dir/objects.a @CMakeFiles\SoundDNA.dir\objects1.rsp
+E:\Soham\Documents\w64devkit\bin\c++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\SoundDNA.dir/objects.a -Wl,--no-whole-archive -o SoundDNA.exe -Wl,--out-implib,libSoundDNA.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SoundDNA.dir\linkLibs.rsp

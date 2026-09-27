@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Nanu/sound_dna_simple/sound_dna_simple/config.h
+
+E:/Nanu/sound_dna_simple/sound_dna_simple/resources/main.rc
+resource.h
+E:/Nanu/sound_dna_simple/sound_dna_simple/resources/resource.h
+winres.h
+E:/Nanu/sound_dna_simple/sound_dna_simple/resources/winres.h
+../config.h
+E:/Nanu/sound_dna_simple/sound_dna_simple/config.h
+
+E:/Nanu/sound_dna_simple/sound_dna_simple/resources/resource.h
+

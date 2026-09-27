@@ -1,0 +1,34 @@
+CMakeFiles/SoundDNA-vst3.dir/E_/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/base/source/baseiids.cpp.obj: \
+ E:\Nanu\sound_dna_simple\iPlug2\Dependencies\IPlug\VST3_SDK\base\source\baseiids.cpp \
+ E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/pluginterfaces/base/funknown.h \
+ E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/pluginterfaces/base/fplatform.h \
+ E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/pluginterfaces/base/ftypes.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/cstdint \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/pstl/pstl_config.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/stdint.h \
+ E:/Soham/Documents/w64devkit/include/stdint.h \
+ E:/Soham/Documents/w64devkit/include/crtdefs.h \
+ E:/Soham/Documents/w64devkit/include/corecrt.h \
+ E:/Soham/Documents/w64devkit/include/_mingw.h \
+ E:/Soham/Documents/w64devkit/include/_mingw_mac.h \
+ E:/Soham/Documents/w64devkit/include/_mingw_secapi.h \
+ E:/Soham/Documents/w64devkit/include/vadefs.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/stddef.h \
+ E:/Soham/Documents/w64devkit/include/stddef.h \
+ E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/pluginterfaces/base/smartpointer.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/utility \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/bits/stl_relops.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/bits/stl_pair.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/type_traits \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/bits/version.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/bits/move.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/bits/utility.h \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/initializer_list \
+ E:/Soham/Documents/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/cstring \
+ E:/Soham/Documents/w64devkit/include/string.h \
+ E:/Soham/Documents/w64devkit/include/sec_api/string_s.h \
+ E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/pluginterfaces/base/istringresult.h \
+ E:/Nanu/sound_dna_simple/iPlug2/Dependencies/IPlug/VST3_SDK/pluginterfaces/base/ipersistent.h

@@ -1,0 +1,102 @@
+{
+	"abstract" : true,
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"find_package",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"E:/Nanu/sound_dna_simple/iPlug2/Scripts/cmake/IGraphics.cmake",
+			"E:/Nanu/sound_dna_simple/iPlug2/Scripts/cmake/FindiPlug2.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 303,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 323,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"id" : "iPlug2::IGraphics::Skia::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "iPlug2::IGraphics::@6890427a1f51a3e7e1df"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "iPlug2::IGraphics::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"fragment" : "../iPlug2/Dependencies/Build/src/skia/out/Release-x64/skia.lib"
+		},
+		{
+			"backtrace" : 7,
+			"fragment" : "../iPlug2/Dependencies/Build/src/skia/out/Release-x64/svg.lib"
+		}
+	],
+	"local" : true,
+	"name" : "iPlug2::IGraphics::Skia",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

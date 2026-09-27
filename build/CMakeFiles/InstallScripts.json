@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/Nanu/sound_dna_simple/build/cmake_install.cmake",
+		"E:/Nanu/sound_dna_simple/build/_deps/wil-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

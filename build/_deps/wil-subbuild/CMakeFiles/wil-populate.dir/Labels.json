@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Nanu/sound_dna_simple/build/_deps/wil-subbuild/CMakeFiles/wil-populate"
+		},
+		{
+			"file" : "E:/Nanu/sound_dna_simple/build/_deps/wil-subbuild/CMakeFiles/wil-populate.rule"
+		},
+		{
+			"file" : "E:/Nanu/sound_dna_simple/build/_deps/wil-subbuild/CMakeFiles/wil-populate-complete.rule"
+		},
+		{
+			"file" : "E:/Nanu/sound_dna_simple/build/_deps/wil-subbuild/wil-populate-prefix/src/wil-populate-stamp/wil-populate-build.rule"
+		},
+		{
+			"file" : "E:/Nanu/sound_dna_simple/build/_deps/wil-subbuild/wil-populate-prefix/src/wil-populate-stamp/wil-populate-configure.rule"
+		},
+		{
+			"file" : "E:/Nanu/sound_dna_simple/build/_deps/wil-subbuild/wil-populate-prefix/src/wil-populate-stamp/wil-populate-download.rule"
+		},
+		{
+			"file" : "E:/Nanu/sound_dna_simple/build/_deps/wil-subbuild/wil-populate-prefix/src/wil-populate-stamp/wil-populate-install.rule"
+		},
+		{
+			"file" : "E:/Nanu/sound_dna_simple/build/_deps/wil-subbuild/wil-populate-prefix/src/wil-populate-stamp/wil-populate-mkdir.rule"
+		},
+		{
+			"file" : "E:/Nanu/sound_dna_simple/build/_deps/wil-subbuild/wil-populate-prefix/src/wil-populate-stamp/wil-populate-patch.rule"
+		},
+		{
+			"file" : "E:/Nanu/sound_dna_simple/build/_deps/wil-subbuild/wil-populate-prefix/src/wil-populate-stamp/wil-populate-test.rule"
+		},
+		{
+			"file" : "E:/Nanu/sound_dna_simple/build/_deps/wil-subbuild/wil-populate-prefix/src/wil-populate-stamp/wil-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"wil-populate"
+		],
+		"name" : "wil-populate"
+	}
+}
